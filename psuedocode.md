@@ -7,6 +7,7 @@ This homework combines a few elements from previous activities in class. These a
 // In this assignment, you'll create a train schedule application that incorporates Firebase to host arrival and departure data.
     We need to create a firebase database at the firebase website
     I assume that the train data will need to be pushed to the firebase within the assignment
+        Actually, it seems we will use the form to submit new train names, and then the instructors will see what they are because we'll give them the link to the site. 
     Also, based on the example picture, this website should look just like the TimeSheet activity looks. So I will use that as a base, as our team finished that assignment. 
 // Your app will retrieve and manipulate this information with Moment.js.
     we can use the train prediction activity to manipulate the information

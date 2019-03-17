@@ -1,9 +1,12 @@
 #custom-header {
-    background-color:#21325a;
+    background-color:#5db1bd;
     text-align: center;
     color: #fff;
     padding: 30px;
     margin-bottom: 20px;
+    font-weight: bold;
+}
+h1 {
     font-weight: bold;
 }
 #form-container{
@@ -11,4 +14,12 @@
 }
 .card-bottom {
     margin-bottom: 20px;
+}
+#custom-footer{
+    background-color:#5db1bd;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color: floralwhite;
 }
