@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Scheduler</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="rounded" id="custom-header">
+            <div>
+                <h1>Train Scheduler</h1>
+                <p>Is it a bus or a plane or a car? It's a Train!</p>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <form>
+            <div class="card">
+                <div class="card-header">
+                    Current Train Schedule
+                </div>
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Train Name</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Frequency (min)</th>
+                                <th scope="col">Next Arrival</th>
+                                <th scope="col">Minutes Away</th>
+                            </tr>
+                        </thead>
+                        <tbody id="final-append"></tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+        <br>
+        <div class="card card-bottom">
+            <div class="card-header">Add a Train</div>
+            <div class="container">
+                <form id="form-container">
+                    <div class="form-group">
+                        <label for="name-input">Train Name</label>
+                        <input type="text" class="form-control" id="name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="destination-input">Destination</label>
+                        <input type="text" class="form-control" id="destination" />
+                    </div>
+                    <div class="form-group">
+                        <label for="first-time-input">First Train Time (HH:mm - military time)</label>
+                        <input type="text" class="form-control" id="firstTime" />
+                    </div>
+                    <div class="form-group">
+                        <label for="frequency-input">Frequency</label>
+                        <input type="text" class="form-control" id="frequency" />
+                    </div>
+                    <button class="btn btn-light" id="submit-button">
+                        Submit</button>
+            </div>
+            </form>
+        </div>
+</body>
+
+</html>

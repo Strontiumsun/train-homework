@@ -1,0 +1,14 @@
+#custom-header {
+    background-color:#21325a;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#form-container{
+    padding: 15px;
+}
+.card-bottom {
+    margin-bottom: 20px;
+}
